@@ -98,21 +98,23 @@
 /* banner end  */
 
 main {
+  margin-top: 74px;
+}
+
+/* why web deve start  */
+.why-web-container {
+  /* margin-top: 74px; */
   max-width: 1140px;
   margin: 0 auto;
-  margin-top: 74px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   padding: 80px 97px 80px 97px;
 }
-
-/* why web deve start  */
 .why-web-title {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 24px;
 }
 
 .why-web-info {
@@ -193,9 +195,9 @@ main {
 
 /* inspiration start  */
 .inspiration-container {
-  margin-top: 90px;
-  width: 1140px;
+   width: 1140px; 
   height: 775px;
+   margin: 0 auto; 
 }
 
 .inspiration-title {
@@ -204,11 +206,10 @@ main {
   font-weight: 800;
   text-align: center;
   margin-bottom: 24px;
-  width: 852px;
+  margin-top: 74px;
 }
 
 .inspiration-info {
-  width: 852px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -224,6 +225,7 @@ main {
   padding: 32px;
   width: 1140px;
   height: 614px;
+  margin: 0 auto;
 }
 .yt-video {
   width: 100%;
@@ -231,3 +233,26 @@ main {
   border-radius: 16px;
 }
 /* inspiration end  */
+
+/* current target start */
+.current-target-container {
+  margin-top: 150px;
+}
+.current-target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.current-target-info {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 48px;
+}
+/* current target end */
