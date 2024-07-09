@@ -14,6 +14,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 38px;
+  margin-bottom: 36px;
 }
 
 .nav-title {
@@ -34,3 +35,64 @@
   font-weight: 600;
 }
 /* nav desgin end */
+
+/* banner start  */
+.banner-container {
+  max-width: 1440px;
+  height: 652px;
+  background-image: url("../images/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.banner-context {
+  width: 998px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img-container {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.banner-title {
+  color: rgb(13, 19, 33);
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.banner-info {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.banner-btn {
+  margin-top: 32px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+/* banner end  */
