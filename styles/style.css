@@ -195,9 +195,9 @@ main {
 
 /* inspiration start  */
 .inspiration-container {
-   width: 1140px; 
+  width: 1140px;
   height: 775px;
-   margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .inspiration-title {
@@ -254,5 +254,57 @@ main {
   opacity: 0.7;
   text-align: center;
   margin-bottom: 48px;
+}
+
+.current-target-cards-container {
+  width: 1140px;
+  height: 460px;
+  margin-top: 48px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+
+.current-target-card-contend {
+  height: 299px;
+  width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-card-img {
+  margin-bottom: 24px;
+}
+
+.current-target-card-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.current-target-card-info {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.current-target-card-btn {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.custom-color-for-current-target-card-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+.custom-color-for-current-target-card-2 {
+  background: rgba(0, 76, 232, 0.05);
 }
 /* current target end */
